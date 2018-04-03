@@ -1,0 +1,30 @@
+{ 
+    "ResourcesLocation" : "Resources",
+    "Language" : "English",
+    "Theme" : "CarmineSD",
+    "Images" : [ { 
+        "Name" : "PoweredByGeneXus",
+        "Type" : "I",
+        "Guid" : "d4b5891b-4373-4ea4-8a97-68b77a0ce14c",
+        "Location" : "PoweredByGeneXus.png",
+        "RenderingMode" : "automatic"
+    }, { 
+        "Name" : "Group",
+        "Type" : "I",
+        "Guid" : "429d6190-65aa-4257-86db-fce0370ff650",
+        "Location" : "CarmineSD/Group.png",
+        "RenderingMode" : "automatic"
+    }, { 
+        "Name" : "bluedot",
+        "Type" : "I",
+        "Guid" : "8553c38e-9aed-4fa3-818b-e1648484e9ed",
+        "Location" : "bluedot.jpg",
+        "RenderingMode" : "automatic"
+    }, { 
+        "Name" : "taxi1",
+        "Type" : "I",
+        "Guid" : "9e00a325-d834-4a2a-97db-2a62af247e01",
+        "Location" : "taxi1.jpg",
+        "RenderingMode" : "automatic"
+    } ]
+}

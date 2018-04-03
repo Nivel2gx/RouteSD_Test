@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- Base theme. Can be customized for each API level -->
+  <style name="BaseApplicationTheme" parent="Theme.Genexus.Light.DarkActionBar">
+  </style>
+
+  <!-- Application theme -->
+  <style name="ApplicationTheme" parent="BaseApplicationTheme">
+    <item name="colorPrimary">@color/gx_colorPrimary</item>
+    <item name="colorPrimaryDark">@color/gx_colorPrimaryDark</item>
+    <item name="colorAccent">@color/gx_colorAccent</item>
+    <item name="colorControlNormal">#A1A1A1</item>
+    <item name="colorControlActivated">#FFA7C0</item>
+    <item name="colorControlHighlight">#FFA7C0</item>
+
+  </style>
+
+  <!-- "No Action Bar" theme variant -->
+  <style name="ApplicationTheme.NoActionBar" parent="ApplicationTheme">
+    <item name="android:windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+  </style>
+
+  <style name="ThemeOverlay.Genexus.Dark.ActionBar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    <item name="colorControlNormal">#FFFFFF</item>
+
+  </style>
+  <style name="ThemeOverlay.Genexus.ActionBar" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+    <item name="colorControlNormal">#FFFFFF</item>
+
+  </style>
+
+  <color name="gx_colorPrimary">#B80545</color>
+  <color name="gx_colorPrimaryDark">#9F0039</color>
+  <color name="gx_colorAccent">#FFA7C0</color>
+
+</resources>

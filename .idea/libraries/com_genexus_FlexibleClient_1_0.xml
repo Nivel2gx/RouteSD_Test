@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="com.genexus:FlexibleClient-1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/FlexibleClient-1.0.aar/4b45ca264bc2c510a20840a79e33a427/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/FlexibleClient-1.0.aar/4b45ca264bc2c510a20840a79e33a427/jars/libs/GxClassR.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/FlexibleClient-1.0.aar/4b45ca264bc2c510a20840a79e33a427/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/FlexibleClient-1.0.aar/4b45ca264bc2c510a20840a79e33a427/jars/libs/youtube-android-player-api-1.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://C:/Genexus/Salto/Android/MavenRepositories/genexusRepository/com/genexus/FlexibleClient/1.0/FlexibleClient-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.google.code.gson:gson:2.3.1@jar">
+    <CLASSES>
+      <root url="jar://C:/Genexus/Salto/Android/MavenRepositories/thirdpartiesRepository/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

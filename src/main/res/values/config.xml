@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="MapsApi" translatable="false">MAPS_GOOGLE_V2</string>
+  <string name="GoogleServicesApiKey" translatable="false">AIzaSyBGVmz_w5wp6yq5XcVvhvgB3a-Qe3Wi7YU</string>
+  <string name="gx_cast_application_id" translatable="false"></string>
+</resources>
