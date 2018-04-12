@@ -1,0 +1,206 @@
+{
+	"instance": {
+		"instanceProperties": {
+			"@idConnectivitySupport": "idInherit",
+			"@idAPPAndroidVersionCode": "1.0",
+			"@idAPPAndroidVersionName": "1.0",
+			"@AndroidPackageName": "com.artech.celeritas.sdpanel100",
+			"@AndroidBaseStyle": "AndroidBaseStyleDark",
+			"@idiosAPPVersionCode": "1.0",
+			"@idWindowsAPPVersionCode": "1.0",
+			"@LogLevelDefault": "Debug",
+			"@IntegratedSecurityLevel": "SecurityLow",
+			"@IntegratedSecurityShowLogoutButton": "True",
+			"@KBLanguage": "English",
+			"@Version": "15.0.1"
+		},
+		"level": {
+			"@name": "Level",
+			"@description": "",
+			"detail": {
+				"@caption": "SDpanel100",
+				"@showAds": "True",
+				"@adsPosition": "Bottom",
+				"@share": "",
+				"@PanelType": "SD",
+				"@deepLinkName": "",
+				"@DataProvider": "SDpanel100_Level_Detail",
+				"data": [{
+					"@hash": "624587561",
+					"@DataProvider": "SDpanel100_Level_Detail",
+					"@isCollection": "False",
+					"@CacheEnabled": "True",
+					"parameters": null
+				}, {
+					"@hash": "1724492397",
+					"@DataProvider": "SDpanel100_Level_Detail_Grid1",
+					"@isCollection": "True",
+					"@CacheEnabled": "True",
+					"variable": {
+						"@Name": "Geolocation1",
+						"@Type": "character",
+						"@Length": "50",
+						"@Domain": "GeneXus.Geolocation",
+						"@isCollection": "False",
+						"@isPassword": "False",
+						"@picture": "",
+						"@internalType": "1"
+					},
+					"parameters": null
+				}],
+				"layout": {
+					"@Type": "View",
+					"@Orientation": "Any Orientation",
+					"@Platform": "Any Platform",
+					"@class": "Form",
+					"@id": "a887f863-4da6-5610-80ee-368b99f4a3c4",
+					"table": {
+						"@controlName": "Maintable",
+						"@width": "100%",
+						"@height": "100%",
+						"@AutoGrow": "True",
+						"@class": "TableDetail",
+						"@background": "",
+						"@ScrollFactor": "1",
+						"@ZoomFactor": "0",
+						"@ScrollAttachment": "Parent",
+						"@visible": "True",
+						"@invisibleMode": "Keep Space",
+						"@enabled": "True",
+						"@tableType": "Tabular",
+						"@enableHeaderRowPattern": "False",
+						"@expandBounds": "None",
+						"@expandLimit": "Behind Application Bars",
+						"@expandDirection": "Top",
+						"@FixedHeightSum": "0",
+						"@FixedWidthSum": "0",
+						"row": {
+							"@rowHeight": "100%",
+							"cell": {
+								"@rowSpan": "1",
+								"@colSpan": "1",
+								"@hAlign": "Default",
+								"@vAlign": "Default",
+								"grid": {
+									"@controlName": "Grid1",
+									"@ControlType": "SDMapAdvanced",
+									"@AutoGrow": "False",
+									"@class": "Grid",
+									"@visible": "True",
+									"@invisibleMode": "Keep Space",
+									"@enabled": "True",
+									"@collection": "",
+									"@rows": "<default>",
+									"@selectionType": "Platform Default",
+									"@enableMultipleSelection": "False",
+									"@emptyDataSetBackground": "",
+									"@emptyDataSetBackgroundClass": "Image",
+									"@emptyDataSetText": "",
+									"@emptyDataSetTextClass": "TextBlock",
+									"@defaultTable": "Layout1",
+									"@pullToRefresh": "False",
+									"@inverseLoad": "False",
+									"@defaultSelectedItemLayout": "(none)",
+									"@DataProvider": "SDpanel100_Level_Detail_Grid1",
+									"@showSelector": "No",
+									"table": {
+										"@controlName": "Grid1table",
+										"@width": "100%",
+										"@height": "64dip",
+										"@AutoGrow": "True",
+										"@class": "Table",
+										"@background": "",
+										"@ScrollFactor": "1",
+										"@ZoomFactor": "0",
+										"@ScrollAttachment": "Parent",
+										"@visible": "True",
+										"@invisibleMode": "Keep Space",
+										"@enabled": "True",
+										"@tableType": "Tabular",
+										"@expandBounds": "None",
+										"@expandLimit": "Behind Application Bars",
+										"@expandDirection": "Top",
+										"@layoutName": "Layout1",
+										"@FixedHeightSum": "64",
+										"@FixedWidthSum": "0",
+										"@id": "6fa10dfe-0a45-4d0d-82ce-533169f3c005",
+										"row": {
+											"@rowHeight": "64dip",
+											"cell": {
+												"@rowSpan": "1",
+												"@colSpan": "1",
+												"@hAlign": "Default",
+												"@vAlign": "Default",
+												"data": {
+													"@controlName": "&geolocation1",
+													"@attribute": "&Geolocation1",
+													"@labelPosition": "Platform Default",
+													"@labelCaption": "geolocation1",
+													"@readonly": "True",
+													"@autolink": "True",
+													"@class": "Attribute",
+													"@visible": "True",
+													"@invisibleMode": "Keep Space",
+													"@enabled": "True",
+													"@format": "Text",
+													"@inviteMessage": "geolocation1",
+													"@EnterEvent": "<Platform Default>",
+													"CustomProperties": {
+														"@ControlType": "Edit",
+														"@AutoGrow": "False",
+														"@IsUserControl": "False",
+														"@InputType": "Values",
+														"@EditAutocomplete": "No",
+														"@AutoCorrection": "False",
+														"@AutoCapitalization": "None",
+														"@Autocomplete": "True",
+														"@IsPassword": "False"
+													}
+												},
+												"CellBounds": {
+													"@x": "0",
+													"@y": "0",
+													"@z": "0",
+													"@xRelative": "0",
+													"@yRelative": "0",
+													"@width": "0",
+													"@height": "64",
+													"@widthRelative": "100",
+													"@heightRelative": "0"
+												}
+											}
+										}
+									},
+									"CustomProperties": {
+										"@SDMapAdvancedmylocation": "True",
+										"@SDMapAdvancedGoogleDirectionApi": "AIzaSyDVHjsMJvq96b9yeLVlt3JPT7wkaaYj0JE",
+										"@SDMapAdvancedCodeAtt": "&geolocation1",
+										"@SDMapAdvancedDirectionType": "row"
+									}
+								},
+								"CellBounds": {
+									"@x": "0",
+									"@y": "0",
+									"@z": "0",
+									"@xRelative": "0",
+									"@yRelative": "0",
+									"@width": "0",
+									"@height": "0",
+									"@widthRelative": "100",
+									"@heightRelative": "100"
+								}
+							}
+						}
+					},
+					"actionBar": {
+						"@controlName": "Applicationbar",
+						"@showApplicationBars": "True",
+						"@applicationBarsClass": "ApplicationBars",
+						"@controlType": "Bar"
+					}
+				},
+				"actions": null
+			}
+		}
+	}
+}

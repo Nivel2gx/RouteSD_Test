@@ -1,0 +1,12 @@
+<ExtensionLibrary Name="SDMapAdvanced">
+	<Implements>
+		<UserControl name="SDMapAdvanced"/>
+	</Implements>
+	<Android>
+		<GroupId>com.devxtend</GroupId>
+		<Name>sdmapadvanced</Name>
+		<Version>1.0</Version>
+		<ModuleClass>com.devxtend.sdmapadvanced.SDMapAdvancedModule</ModuleClass>
+		<GradleExtensionFile>SDMapAdvanced.gradle</GradleExtensionFile>
+	</Android>
+</ExtensionLibrary>

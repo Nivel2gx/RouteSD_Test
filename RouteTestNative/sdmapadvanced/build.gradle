@@ -1,0 +1,35 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+
+    compileOptions {
+        sourceCompatibility  JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+}
+
+repositories {
+    maven { url "file:////Users/matiaspreciozzi/Documents/Proyectos/GX15_U7/MavenRepositories/genexusRepository" }
+    maven { url "file:////Users/matiaspreciozzi/Documents/Proyectos/GX15_U7/MavenRepositories/thirdpartiesRepository" }
+
+    mavenCentral()
+    jcenter()
+    google()
+}
+
+dependencies {
+    compile 'com.genexus:FlexibleClient:1.0'
+    //compile project(':googleDirectionLibrary')
+    compile 'com.android.volley:volley:1.0.0'
+}
+
+//apply from: rootProject.file('gradle-mvn-push.gradle')

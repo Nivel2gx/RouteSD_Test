@@ -1,0 +1,6 @@
+repositories {
+    maven { url 'https://maven.google.com' }
+    jcenter()
+    maven { url "file:////Users/matiaspreciozzi/Documents/Proyectos/GX15_U7/MavenRepositories/genexusRepository" }
+    maven { url "file:////Users/matiaspreciozzi/Documents/Proyectos/GX15_U7/MavenRepositories/thirdpartiesRepository" }
+}

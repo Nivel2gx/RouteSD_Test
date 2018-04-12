@@ -1,6 +1,0 @@
-repositories {
-    maven { url 'https://maven.google.com' }
-    jcenter()
-    maven { url "file:///${System.env.GENEXUS_HOME}/Android/MavenRepositories/genexusRepository" }
-    maven { url "file:///${System.env.GENEXUS_HOME}/Android/MavenRepositories/thirdpartiesRepository" }
-}

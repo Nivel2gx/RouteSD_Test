@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<ControlDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<!-- Basic information -->
+	<Id>44bda26b-9309-45fd-8972-0b35b080aff9</Id>
+	<ObjClass>SDMAPADVANCED</ObjClass>
+	<Version>4.1.0</Version>
+	<Name>SDMapAdvanced</Name>
+	<Description>SD Map Advanced</Description>
+	<IncludeInControlInfo>false</IncludeInControlInfo>
+	<AutoGrowSupported>false</AutoGrowSupported>
+
+	<ControlType>List</ControlType>
+	
+	<PropertiesDefinition>SDMapAdvancedProperties.xml</PropertiesDefinition>
+	<Methods>
+		<Method>
+			<Name>RoutePoint</Name>
+			<Signature>RoutePoint(startpoint: Character, endpoint: Character)</Signature>
+			<Parameters>
+				<Parameter>Character</Parameter>
+				<Parameter>Character</Parameter>
+			</Parameters>
+		</Method>
+		
+	</Methods>
+
+	<Events>
+		 <Event>OnTap(Numeric)</Event>
+	</Events>
+
+	<!-- Declare a custom base class for this control -->
+	<ThemeExtensions/>
+
+	<!-- References an XPZ that is imported when using this control -->
+	<GxResources/>
+
+	<!-- Declare actions to be executed upon placing the control on the editor -->
+	<Actions/>
+
+	<!-- Platforms supported -->
+	<Platforms>
+		<Platform>SmartDevices</Platform>
+	</Platforms>
+</ControlDefinition>
